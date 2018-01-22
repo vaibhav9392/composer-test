@@ -7,7 +7,8 @@
     },
     "type": "drupal-module",
     "extra": {
-        "path": "extensions/"
-    }
-}
+        "installer-paths": {
+            "sites/all/modules/{$name}": ["edvanta/test-composer"]
+        }
+    }}
 
