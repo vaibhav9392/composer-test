@@ -2,9 +2,11 @@
     "name": "edvanta/test-composer",
     "description": "A testing package",
     "require": {
-        "php": "^5.3.3 || ^7.0"
+        "php": "^5.3.3 || ^7.0",
+        "composer/installers": "~1.0"
     },
     "extra": {
         "path": "extensions/"
     }
 }
+
