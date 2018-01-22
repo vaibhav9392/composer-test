@@ -1,3 +1,7 @@
 {
-  "name": "Test-Package"
+    "name": "ed/test-composer",
+    "description": "A testing package",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
 }
